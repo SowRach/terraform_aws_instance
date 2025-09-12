@@ -1,4 +1,4 @@
-variable "project_environment" {}
+variable "environment" {}
 
 variable "project_name" {} 
 
