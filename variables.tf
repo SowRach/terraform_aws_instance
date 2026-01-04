@@ -1,6 +1,6 @@
-variable "environment" {}
+# variable "environment" {}
 
-variable "project_name" {} 
+# variable "project_name" {} 
 
 variable "ami" {}
 

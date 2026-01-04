@@ -5,7 +5,7 @@ resource "aws_instance" "web" {
   subnet_id              = var.subnet_id
   user_data = var.user_data 
 
-  tags = {
-    Name = "${local.ec2_name}-${var.ec2_name}"
-  }
+  # tags = {
+   # Name = "${local.ec2_name}-${var.ec2_name}"
+  #}
 }
