@@ -1,4 +1,4 @@
-resource "aws_instance" "web" {
+resource "aws_instance" "workstation-eksctl"  {
   ami           = var.ami
   instance_type = var.instance_type
   vpc_security_group_ids = var.vpc_security_group_ids
